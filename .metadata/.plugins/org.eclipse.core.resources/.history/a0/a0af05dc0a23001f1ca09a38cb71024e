@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>practice240605</title>
+</head>
+<body>
+
+<h1>Practice 240605</h1>
+
+<ul>
+
+<ul>
+<form action="" method="get">
+		
+		<label>베스킨라빈스 맛 선택: </label> 
+			<select name="flavar">
+			<option value="choco">초코나무숲</option>
+			<option value="mint">민트초콜릿칩</option>
+			<option value="mom">엄마는외계인</option>
+			<option value="etc">기타</option>
+		</select><br> 
+		
+		<label>수량: </label><input type="text" name="count"><br>
+		<input type="submit" value="GET 요청">
+		
+	</form>
+
+</ul>
+
+</body>
+</html>
