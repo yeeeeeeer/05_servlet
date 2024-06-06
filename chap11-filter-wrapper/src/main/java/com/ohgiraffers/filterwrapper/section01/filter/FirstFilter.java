@@ -24,7 +24,7 @@ public class FirstFilter implements Filter {
 	}
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-		// Servlet으로 request가 전달되기 전에 요청을 가로채는 역할을 하는 메소드로, doFilter() 호출 전에 filter에서 처리할 코드 작성
+		// Servlet으로 request가 전달되기 전에 요청을 가로채는 역할을 하는 메소드로, doFilter() 호출 전에 filter에서 처리할 코드 작성		
 		System.out.println("Filter doFilter() 메소드 호출 111");
 		
 		// filter 처리 이후 다음 필터, 또는 Servlet의 doGet/doPost 호출

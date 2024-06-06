@@ -8,9 +8,11 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/practice240605")
-public class practice240605 extends HttpServlet {
+@WebServlet("/PriceForwardServlet")
+public class PriceForwardServlet extends HttpServlet {
 
+	// 가격 계산하기
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
@@ -23,12 +25,8 @@ public class practice240605 extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 
-//		if (count > 6) {
-//			response.sendError(404, "error !_!");
-//		} else {
-//			out.print("<h2> 주문완료 되었습니다 :) </h2><br>" + "<h3> 🍦 선택 : " + flavor + "<br> 🎀 수량 : " + count + "</h3>");
-//			out.close();
-//		}
+		out.print("<h2> 주문완료 되었습니다 :) </h2><br>" + "<h3> 🍦 선택 : " + flavor + "<br> 🎀 수량 : " + count + "</h3>");
+		out.close();
 
 	}
 
