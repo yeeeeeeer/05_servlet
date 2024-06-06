@@ -14,7 +14,7 @@ public class PracticeErrorHandlerPage extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		Enumeration<String> attrNames = request.getAttributeNames();
-		while
+		
 	
 	}
 

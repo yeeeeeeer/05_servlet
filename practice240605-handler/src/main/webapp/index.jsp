@@ -12,7 +12,8 @@
 
 		<form action="practice240605" method="get">
 
-			<label>🍦 베스킨라빈스 맛 선택 :  </label> <select name="flavor">
+			<label>🍦 베스킨라빈스 맛 선택 :  </label> 
+			<select name="flavor">
 			<br>
 				<option value="초코나무숲">초코나무숲</option>
 				<option value="민트초콜릿칩">민트초콜릿칩</option>
