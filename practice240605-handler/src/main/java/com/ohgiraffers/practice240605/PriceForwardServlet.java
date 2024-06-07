@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/PriceForwardServlet")
 public class PriceForwardServlet extends HttpServlet {
 
 	// 가격 계산하기

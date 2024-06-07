@@ -11,7 +11,7 @@ import jakarta.servlet.ServletResponse;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpFilter;
 
-@WebFilter("/PriceForwardServlet")
+@WebFilter("/")
 public class FilterPratice extends HttpFilter implements Filter {
        
     public FilterPratice() {

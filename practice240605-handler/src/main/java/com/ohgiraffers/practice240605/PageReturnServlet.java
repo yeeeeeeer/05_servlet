@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet("/PriceForwardServlet")
 public class PageReturnServlet extends HttpServlet {
 	
 	// 선택제품, 수량, 가격 페이지 반환하기
